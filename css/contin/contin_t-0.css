@@ -1,0 +1,129 @@
+.telo_0
+{
+   /* position: relative; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nweek {display: inline-block;}
+.Tname
+{
+    font-family: Roboto,sans-serif;
+    display: inline-block;
+    color: var(--w5);
+    font-size:1.5em;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+.namegroup
+{
+    border: 3px solid var(--w3);
+    background-color: var(--w1); 
+}
+.Search
+{
+    border: 3px solid var(--w3);
+    background-color: var(--w1);
+    color: var(--w3);
+    outline: none; 
+    border-radius: 8px;
+}
+.Search:hover
+{
+    border-color: var(--w1);
+    background-color: var(--w3);
+    color: var(--w2);
+    cursor: pointer;
+}
+.Search:active
+{
+    border-color: var(--w2);
+    background-color: var(--w4);
+    color: var(--w3);
+    cursor: pointer;
+}
+
+.TAlert
+{
+    color: var(--w5);
+    text-align: center;
+}
+.uberweek {font-size: 12px;}
+.its-day, .NTAlert
+{ 
+    border: 3px solid var(--w3);
+    border-radius: 16px;
+    background-image: linear-gradient(to bottom, var(--w1), #e8e8e8)
+}
+.nameday
+{
+    
+    border-radius: 16px;
+    background-color: var(--w3);
+    text-align: center;
+    
+}
+.lesson
+{
+    
+    background-color: var(--w5);
+    border-radius: 16px;
+    padding: 0.7em 1em 0.7em 1em;
+}
+
+.ltime
+{
+    color: var(--w2);
+}
+.ltype
+{
+    
+    color: var(--w1);   
+}
+.lname { color: var(--w1);}
+.loc { color: var(--w2);}
+.lte
+{
+    color: var(--w2);
+    text-shadow: var(--shadow-1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+:root
+{
+    --w1: #fdfdff;
+    --w2: #e9e8eb;
+    --w3: #a2adc2;
+    --w4: #555860;
+    --w5: #222628;
+   /* --w1: #222628;
+    --w2: #555860;
+    --w3: #a2adc2;
+    --w4: #e9e8eb;
+    --w5: #fdfdff;*/
+
+    
+
+    --shadow-1:
+    2px  2px 8px var(--w4),  /*  Нижний - Справа */
+    2px -2px 8px var(--w4),  /*  Нижний - Слева  */
+    -2px  2px 8px var(--w4),  /* Верхний - Справа */
+    -2px -2px 8px var(--w4);
+    --shadow-2:
+    2px  2px 25px var(--w3),  /*  Нижний - Справа */
+    2px -2px 25px var(--w3),  /*  Нижний - Слева  */
+    -2px  2px 25px var(--w3),  /* Верхний - Справа */
+    -2px -2px 25px var(--w3);
+
+}

@@ -1,0 +1,45 @@
+@media screen and (min-width: 1032px) and (max-width:1549px)
+{
+    .telo_0 {padding-top: 60px;}
+    .nweek{margin: 8px 0px 8px 0px;}
+    .Tname {padding-left: 1em; margin: auto 0;}
+    .namegroup
+    {
+        text-align: center;
+        border-radius: 20px;
+        font-size:1.5em;
+        outline: none;
+        width: 40%;
+        margin: auto 0;
+    }
+    .SearchGroup {display: flex;}
+    .Search
+    {  
+        font-size: 1rem;
+        margin: auto 0;
+        padding: 6px;
+    }
+    .namegroup, .Search {margin-left: 1em;}
+    .NTAlert
+    {
+        padding: 8px;
+        width: 100%;
+        margin: 0 4px 0 4px;
+    }
+    .TAlert {font-size: 1.5rem;}
+
+
+    .uberweek {margin-left:1em; margin-right:1em;}
+    .week { display: flex; }
+    .its-day { margin: 0 4px 0 4px; width: 100%;}
+    .ltime, .ltype, .lname, .loc, .lte {margin: 4px 0 4px 0;}
+    .lhead{ text-align: center; position: unset;}
+    .ltype
+    {
+        padding: 2px 0 2px 0;
+        background-color: var(--w4);
+        border-radius: 12px;
+        position: unset;    
+    }
+    .lesson, .nameday {margin: 4px;}
+}

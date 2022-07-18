@@ -1,0 +1,212 @@
+head
+{
+    min-width: 220px;
+}
+@media screen and (max-width: 840px) 
+{
+    .uberweek {margin-left:1em; margin-right:1em;}
+    .its-day
+    {
+        margin: 0 0 10px 0;
+        width: 100%;
+    }
+    .lessons {display:block;}
+    .ltime, .ltype, .lname, .loc, .lte {margin: 4px 0 4px 0;}
+    .nameday
+    {
+        padding: 0.6em 0em 0.6em 0em;
+        font-size: 150%;
+        margin: 8px;
+    }  
+    .lhead
+    {
+        position: relative; 
+        text-align: unset;
+    }
+    .ltime, .ltype
+    {
+        display: inline-block;
+        padding-bottom: 4px;
+        font-size: 18px;
+    }
+    .ltype
+    {
+        padding: 0 0 0 0;
+        background: none;
+        border-radius: 0;
+        text-shadow: var(--shadow-1);
+        right: 0;
+        position: absolute;
+        max-width: 60%;
+    }
+    .lte
+    {
+        text-shadow: none;
+        width: 60%;
+        font-size: 14px;
+        
+    }
+    .lname
+    {
+        padding: 4px 0 10px 0;
+        font-size: 20px;
+        max-width: 85%
+    }
+    .lesson
+    {
+        position: relative;
+        margin: 8px;     
+    }
+    .loc
+    {
+        right: 1em;
+        bottom: 0.7em;
+        position: absolute;
+        max-width: 40%;
+        font-size: 16px;
+        margin-bottom: 0;
+    }
+}
+@media screen and (max-width: 400px) 
+{
+    .lname {margin-bottom: 1em;}
+    .lte 
+    {
+        width: 45%;
+        bottom: 0;
+        margin-bottom: 0;
+    }
+    .loc
+    {
+        margin-bottom: 0;
+        right: 1em;
+        bottom: 8px;
+        position: absolute;
+        max-width: 40%;
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 701px) and (max-width: 840px) 
+{
+    .telo_0 {padding-top: 60px;}
+    .nweek{margin: 8px 0px 8px 0px; width: 100%;}
+    .Tname {padding-left: 12px; margin: auto 0;}
+    .namegroup
+    {
+    text-align: center;
+    border-radius: 20px;
+    font-size:1.5em;
+    outline: none;
+    width: 40%;
+    margin: auto 0;
+    }
+    .SearchGroup {display: flex; justify-content: space-between;}
+    .Search
+    {  
+        font-size: 1rem;
+        margin: auto 0;
+        padding: 6px;
+    }
+    .Search {margin-right: 12px;}
+    .TAlert {font-size: 1.5rem;}
+}
+@media screen and (min-width: 401px) and (max-width: 700px) 
+{
+    .telo_0 
+    {
+        padding-top: 116px;
+    }
+    .nweek {margin: 8px 0px 8px 0px; width: 100%;}
+    .Tname {text-align: center;}
+    .namegroup
+    {
+        text-align: center;
+        border-radius: 20px;
+        font-size:1.5em;
+        outline: none;
+        margin: 0 6px 0 12px;
+    }
+    .SearchGroup
+    {
+        display: grid;
+        width: 100%;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas: "p-1 p-1" "p-2 p-3";
+    }
+    .Search
+    {  
+        font-size: 1rem;
+        padding: 6px;
+        margin: 0 12px 0 6px;
+    }
+    .TAlert {font-size: 1.5rem;}
+
+    .Tname { grid-area: p-1;}
+    .namegroup {grid-area: p-2;}
+    .Search {grid-area: p-3;}
+}
+@media screen and (max-width: 400px) 
+{
+    .telo_0 {padding-top: 200px;}
+    .nweek {margin: 8px 0px 8px 0px;}
+   /* .Tname {text-align: center;}*/
+    .namegroup
+    {
+        text-align: center;
+        border-radius: 20px;
+        font-size:1.5em;
+        outline: none;
+    }
+    .SearchGroup
+    {
+        display: grid;
+        width: 100%;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-areas: "p-1" "p-2" "p-3";
+        min-width: none;
+    }
+    .Search
+    {  
+        font-size: 1rem;
+    }
+    
+    .Tname { grid-area: p-1; text-align: center; width: 98vw;}
+    .namegroup {grid-area: p-2; width: 90vw; margin: 8px 0 8px 0;}
+    .Search 
+    {
+        grid-area: p-3;
+        width: 80vw;
+        border-color: var(--w1);
+        background-color: var(--w3);
+        color: var(--w2);
+    }
+    .Tname, .namegroup, .Search {justify-self: center;}
+    .TAlert {font-size: 1.5rem;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

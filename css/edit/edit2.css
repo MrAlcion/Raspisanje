@@ -1,0 +1,287 @@
+.telo_0 
+{
+  /*  margin-top: 120px;*/
+}
+.panel
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    background-color: hsl(216, 16%, 34%);
+}
+#bt
+{
+    border: none;
+    background: none;
+    color: white;
+    padding: 10px 0 10px 0;
+    transition-duration: 0.3s;
+    outline: none; 
+}
+#bt:hover
+{
+    background-color: hsl(216, 16%, 40%);
+}
+#bt:active
+{
+    background-color: hsl(216, 16%, 28%);
+}
+/*
+td{text-align: center;}
+th
+{
+    background-color: hsl(0, 0%, 90%);
+    border-radius: 15px;
+    padding: 0 6px 0 6px;
+}
+td
+{
+    background-color: hsl(240, 2%, 70%);
+    border-radius: 15px;
+   /* padding: 0 6px 0 6px;
+    margin: 4px 0 4px 0;
+    min-width: 27px;
+    
+}
+table
+{
+    padding: 8px;
+    background-color: grey;
+    font-family: "Comic Sans MS", "Comic Sans", bold;
+    border-radius: 15px;
+    margin-left: 12px;
+}
+.k8
+{
+    border-radius: 15px;
+  /*  padding: 0 2px 6px 0px;
+    width: 98%;
+    background-color: hsl(240, 2%, 70%);
+    border: 2px solid hsl(0, 0%, 90%);
+   /* display: flex;
+    margin-left: 0;
+    outline: none; 
+    text-align: center;
+    font-family: "Comic Sans MS", "Comic Sans", bold;
+}*/
+.k7
+{
+    width: 100%;
+    background-color: hsl(240, 2%, 70%);
+    border: 2px solid hsl(0, 0%, 90%);
+    outline: none; 
+    text-align: center;
+    font-family: "Comic Sans MS", "Comic Sans", bold;
+    border-radius: 15px;
+}
+
+.table
+{
+    font-size: 16px;
+    width: 60%;
+    display: grid;
+    font-family: "Comic Sans MS", "Comic Sans", bold;
+    background-color: grey;
+    border-radius: 15px;
+    margin: 12px;
+    padding: 8px;
+}
+.table-Gr-pr, .table-Pepod-pr
+{
+    font-size: 16px;
+    width: 500px;
+  /*  display: grid;*/
+    font-family: "Comic Sans MS", "Comic Sans", bold;
+    background-color: grey;
+    border-radius: 15px;
+    margin: 12px;
+    padding: 8px;
+}
+.table-rsp
+{
+    font-size: 16px;
+    width: 500px;
+  /*  display: grid;*/
+    font-family: "Comic Sans MS", "Comic Sans", bold;
+    background-color: grey;
+    border-radius: 15px;
+    margin: 12px;
+    padding: 8px;
+}
+.head0
+{
+    text-align: center;
+    background-color: hsl(0, 0%, 90%);
+    border-radius: 16px;
+}
+.tt
+{
+    display: grid;
+    grid-template-columns: 0.1fr 1fr;
+    grid-template-areas: "a1 a2" "b1 b2" "c1 c2";  
+}
+.m1 {grid-area: a1;}
+.m2 {grid-area: a2; text-align: center;}
+div > .m1, .n1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+.n1, .n2
+{
+    background-color: hsl(240, 2%, 70%);
+    margin: 2px;
+
+}
+.n1 {border-radius: 30px;}
+.n2
+{
+    border-radius: 30px;
+    padding-left: 12px;
+}
+.k8
+{
+    border-radius: 15px;
+  /*  padding: 0 2px 6px 0px;*/
+    width: 100.5%;
+    background-color: hsl(240, 2%, 70%);
+    border: 2px solid hsl(0, 0%, 90%);
+    display: flex;
+    margin-left: 0;
+    outline: none; 
+    text-align: center;
+    font-family: "Comic Sans MS", "Comic Sans", bold;
+    margin-left: -12px;
+}
+
+.k81
+{
+    border-radius: 15px;
+  /*  padding: 0 2px 6px 0px;*/
+    width: 104%;
+    background-color: hsl(240, 2%, 70%);
+    border: 2px solid hsl(0, 0%, 90%);
+    display: flex;
+    margin-left: 0;
+    outline: none; 
+    text-align: center;
+    font-family: "Comic Sans MS", "Comic Sans", bold;
+    margin-left: -12px;
+}
+
+.k83
+{
+    border-radius: 15px;
+  /*  padding: 0 2px 6px 0px;*/
+    width: 105%;
+    background-color: hsl(240, 2%, 70%);
+    border: 2px solid hsl(0, 0%, 90%);
+    display: flex;
+    margin-left: 0;
+    outline: none; 
+    text-align: center;
+    font-family: "Comic Sans MS", "Comic Sans", bold;
+    margin-left: -12px;
+}
+
+.tt1
+{
+    
+    display: grid;
+    grid-template-columns: 0.1fr 1fr 1fr 1fr 1fr 1fr ;
+    grid-template-areas: "a1 a2 a3 a4 a5 a6" "b1 b2 b3 b4 b5 b6" "c1 c2 c3 c4 c5 c6";  
+}
+.m-0 {grid-area: a1;}
+.m-1 {grid-area: a2;}
+.m-2 {grid-area: a3;}
+.m-3 {grid-area: a4;}
+.m-4 {grid-area: a5;}
+.m-5 {grid-area: a6;}
+
+.m-0 {grid-area: a1;}
+.m-1 {grid-area: a2; text-align: center;}
+.m-0, .n-1 {text-align: center;}
+.n-1, .n-2, .n-3, .n-4, .n-5, .n-6
+{
+    background-color: hsl(240, 2%, 70%);
+    margin: 2px;
+
+}
+.n-1 {border-radius: 30px;}
+.n-2, .n-3, .n-4, .n-5, .n-6
+{
+    border-radius: 30px;
+    padding-left: 12px;
+}
+.tt2
+{
+    display: grid;
+    grid-template-columns: 0.1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: "a1 a2 a3 a4 a5 a6";  
+}
+.n01
+{
+    width:193.6px
+}
+.n02
+{
+    width:163.9px;
+    padding-left: 12px;
+}
+.k08
+{
+    border-radius: 15px;
+    width: 100%;
+    background-color: hsl(240, 2%, 70%);
+    border: 2px solid hsl(0, 0%, 90%);
+    display: flex;
+    margin-left: 0;
+    outline: none; 
+    text-align: center;
+    font-family: "Comic Sans MS", "Comic Sans", bold;
+    width: 159.9px;
+    margin-left: -10px;
+}
+.k00
+{
+    width: 100%;
+    background-color: hsl(240, 2%, 70%);
+    border: 2px solid hsl(0, 0%, 90%);
+    outline: none; 
+    text-align: center;
+    font-family: "Comic Sans MS", "Comic Sans", bold;
+    border-radius: 15px;
+}
+
+.tt3
+{
+    display: grid;
+   /* width: 100%;*/
+    grid-template-columns: 116.25px calc((100% - 116.25px)/2);
+    grid-template-areas: "i o p";  
+   
+}
+.n001{grid-area: i; width: 116.25px; align-self: end; margin-left: 2px;}
+.n002{grid-area: o; text-align: center; }
+.n003{grid-area: p; text-align: center;}
+.k000
+{
+    width: 100%;
+    background-color: hsl(240, 2%, 70%);
+    border: 2px solid hsl(0, 0%, 90%);
+    outline: none; 
+    text-align: center;
+    font-family: "Comic Sans MS", "Comic Sans", bold;
+    border-radius: 15px;
+    
+}
+.k008
+{
+    width: 90%;
+    border-radius: 15px;
+    background-color: hsl(240, 2%, 70%);
+    border: 2px solid hsl(0, 0%, 90%);
+    margin-left: 0;
+    outline: none; 
+    text-align: center;
+    font-family: "Comic Sans MS", "Comic Sans", bold;    
+}

@@ -1,0 +1,56 @@
+@media screen and (min-width: 841px) and  (max-width: 1031px) 
+{
+    .telo_0 {padding-top: 60px;}
+    .nweek{margin: 8px 0px 8px 0px;}
+    .Tname {padding-left: 12px; margin: auto 0;}
+    .namegroup
+    {
+    text-align: center;
+    border-radius: 20px;
+    font-size:1.5em;
+    outline: none;
+    width: 40%;
+    margin: auto 0;
+    }
+    .SearchGroup {display: flex;}
+    .Search
+    {  
+        font-size: 1rem;
+        margin: auto 0;
+        padding: 6px;
+    }
+    .namegroup, .Search {margin-left: 12px;}
+    .TAlert {font-size: 1.5rem;}
+    .NTAlert {margin-top: 5px;}
+
+
+
+    .uberweek {margin-left:1em; margin-right:1em;}
+    .week { display: block; margin-top: -5px;}
+    .its-day { margin: 5px 0 5px 0;}
+    .ltime, .ltype, .lname, .loc, .lte {margin: 4px 0 4px 0;}
+    .nameday
+    {
+        padding: 0.6em 0em 0.6em 0em;
+        font-size: 150%;
+    }    
+    .lessons
+    {
+        display: flex;
+        inline-size: 100%-5px;
+    }
+    .lesson {width: 100%;}
+    .lhead {text-align: center;}
+    .ltype
+    {
+        padding: 2px 0 2px 0;
+        background-color: var(--w4);
+        border-radius: 12px;
+        position:unset;
+        display:block;
+    }
+    .nameday {margin: 5px;}
+    .lessons {margin: 0px 5px 5px 5px;}
+    .lesson {margin: 0px 2.5px 0px 2.5px;}
+    .lname {max-width: 100%;}
+}

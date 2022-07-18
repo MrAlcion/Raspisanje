@@ -1,0 +1,134 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    min-width: 720px;
+    background-color: #e8e8e8;
+}
+p
+{
+    margin: 0;
+    font-family: Roboto,sans-serif;
+}
+header
+{  
+    padding: 0.8em 0em 0.8em 0em;
+    top: 0;
+    width: 100%;
+    margin: 0;
+    position: fixed;
+    z-index:1;
+    background-color: #bbbbbe;
+    border-bottom: 4px solid #495464;
+    user-select: none;   
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+.p_header
+{
+    font-size:1.5em;
+    font-family: Roboto,sans-serif;
+    padding-left: 1em;
+    color: #000000;
+    display: inline;
+}
+button.enter1
+{
+    font-size: 1rem;
+    margin-right: 1em;
+}
+.enter1
+{
+    background-color: #0DA6A6;
+    border: 2px solid #ffffff;
+    color: white;
+    border-radius: 1em;
+    padding: 0.2em 1.5em;
+    outline: none;  
+}
+.enter1:active {background-color: #47BFBF;}
+.telo_0
+{
+    
+    margin-left:1rem;
+    margin-right:1rem;
+    position: relative;
+    font-size: 2.5em;
+}
+.buts
+{
+    margin-top: 30vh;
+    display: flex;
+    justify-content: center;
+}
+.contin, .onefail, .twofail
+{
+    user-select: none;
+    width: 30vw;
+    height: 15vw;
+    transform: skewX(-15deg);
+    border-radius: 12px;
+    outline: none;
+    border: solid;
+    border-width: 3px;
+    display: block;
+    transition-duration: 0.2s;
+}
+.contin:hover, .onefail:hover, .twofail:hover{border-color:  white;}
+.contin:active, .onefail:active, .twofail:active{border-color:  white;}
+.contin
+{
+    border-color: #0000fa;
+    background-color: #c7c7ff;
+}
+.contin:hover{  background-color: #6161ff;}
+.contin:active{ background-color: #0000fa;}
+.onefail 
+{
+    margin: 0 2% 0 2%;
+    border-color: #fa0000;
+    background-color: #ffc7c7;
+}
+.onefail:hover{ background-color: #ff6161;}
+.onefail:active{ background-color: #fa0000;}
+.twofail
+{
+    border-color: #8800fa;
+    background-color: #e6c7ff;
+}
+.twofail:hover{ background-color: #c561ff;}
+.twofail:active{ background-color: #8800fa;}
+.b1 
+{
+    transform: skewX(15deg);
+    font-size:calc(2* var(--viewW) );
+    text-shadow: var(--shad-border);
+}
+
+
+
+
+
+
+
+
+
+
+
+:root
+{
+    --shadow:
+    5px  5px 25px var(--shad-col),  /*  Нижний - Справа */
+    5px -5px 25px var(--shad-col),  /*  Нижний - Слева  */
+    -5px  5px 25px var(--shad-col), /* Верхний - Справа */
+    -5px -5px 25px var(--shad-col);
+    --shad-border:
+    3px  0px 5px var(--sh-b-col),   /* Низ      */
+    0px 3px 5px var(--sh-b-col),    /* Справа   */
+    -3px  0px 5px var(--sh-b-col),  /* Верх     */
+    0px -3px 5px var(--sh-b-col);   /* Слева    */
+    --shad-col: white;
+    --sh-b-col: #ffffff;
+    --viewW: 100vW/730*12;
+}
